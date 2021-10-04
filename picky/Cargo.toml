@@ -44,6 +44,9 @@ rsa = "0.5"
 rand = "0.8"
 num-bigint-dig = "0.7"
 aes-gcm = { version = "0.9", optional = true }
+bcrypt-pbkdf = "0.6"
+block-modes = { version = "0.8" }
+aes = { version = "0.7.5", features = ["ctr"], default-features = false }
 
 [dev-dependencies]
 pretty_assertions = "0.7"
